@@ -1,4 +1,4 @@
-# runelite-flexxed
+# Flexxed for RuneLite+
 Extends `Flexo` by the RuneLite+ team. Feel free to make pull requests with any contributions or improvements you can think of.
 The idea of this is to extend Flexo to add more functionality, and reduce the need to copy and re-use the same stock functions over-and-over in separate projects.
 
