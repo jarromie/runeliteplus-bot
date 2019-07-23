@@ -1,8 +1,10 @@
-# Flexxed for RuneLite+
+# Flexxed ("Bot") for RuneLite+
 Extends `Flexo` by the RuneLite+ team. Feel free to make pull requests with any contributions or improvements you can think of.
-The idea of this is to extend Flexo to add more functionality, and reduce the need to copy and re-use the same stock functions over-and-over in separate projects.
+The idea of this is to extend `Flexo` to add more functionality, and reduce the need to copy and re-use the same stock functions over-and-over in separate projects. Some of these functions may not be the best way (in terms of resources used) to do things.
 
-# Example
+Last updated for `RuneLite+ 1.1.6`.
+
+# Examples
 ```java
     @Inject
     private Client client;
@@ -46,3 +48,4 @@ The idea of this is to extend Flexo to add more functionality, and reduce the ne
         log.info("Inventory contents: {}", bot.getInventoryItems());
     }
 ```
+(Logs inventory contents on `onGameStateChanged`)
